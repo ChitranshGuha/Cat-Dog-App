@@ -16,7 +16,7 @@ This project is an Android application that classifies images of cats and dogs u
 ## Installation
 1. Clone the repository from GitHub:
    ```sh
-   git clone https://github.com/ChitranshGuha/your-repo.git
+   git clone https://github.com/ChitranshGuha/Cat-Dog-App.git
    ```
 2. Open the project in Android Studio.
 3. Ensure that all dependencies are installed.
