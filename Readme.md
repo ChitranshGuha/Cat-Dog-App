@@ -33,7 +33,7 @@ This project is an Android application that classifies images of cats and dogs u
 ## File Structure
 ```
 - /model/
-  - cat_dog_classifier.h5 (original Keras model)
+ <!-- - cat_dog_classifier.h5 (original Keras model)-->
   - cat_dog_classifier.tflite (optimized model for mobile)
 - /app/
   - Android app source code
@@ -43,7 +43,7 @@ This project is an Android application that classifies images of cats and dogs u
 ```
 
 ## How It Works
-1. The user uploads an image via the app.
+1. The user uploads an image or click picture through camera via the app.
 2. The image is processed and passed through the TensorFlow Lite model.
 3. The model predicts whether the image contains a cat or a dog and returns a confidence score.
 4. The result is displayed on the screen.
@@ -51,7 +51,7 @@ This project is an Android application that classifies images of cats and dogs u
 ## Future Improvements
 - Improve model accuracy with a larger dataset.
 - Optimize app performance and UI.
-- Add real-time camera classification.
+- Improve the real-time camera classification.
 
 ## Contributors
 - [Chitransh Guha](https://github.com/ChitranshGuha)
