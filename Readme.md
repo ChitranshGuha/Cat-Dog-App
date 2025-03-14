@@ -32,10 +32,9 @@ This project is an Android application that classifies images of cats and dogs u
 
 ## File Structure
 ```
-- /model/
- <!-- - cat_dog_classifier.h5 (original Keras model)-->
+- /models/
   - cat_dog_classifier.tflite (optimized model for mobile)
-- /app/
+- /appdata/
   - Android app source code
 - /notebooks/
   - Model training notebook (Google Colab)
